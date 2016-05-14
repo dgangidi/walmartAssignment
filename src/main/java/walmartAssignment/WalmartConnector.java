@@ -47,6 +47,7 @@ public class WalmartConnector {
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			try{
+			dBuilder.setErrorHandler(null);
 			doc = dBuilder.parse(conn.getInputStream());
 			} catch(SAXException e){
 				return doc;
