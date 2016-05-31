@@ -5,6 +5,7 @@ WALMART CODING ASSIGNMENT
 
 For running the solution in Command Prompt (Windows):
 PROJECT_FOLDER>mvn package
+
 PROJECT_FOLDER>java -cp target/walmartAssignment-1.0-SNAPSHOT.jar walmartAssignment.Main
 
 
